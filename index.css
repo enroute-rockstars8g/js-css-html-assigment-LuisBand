@@ -25,14 +25,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-nav{
-    height: 68px;
-    display: flex; 
-    align-items: center;
-    z-index: 3;
-    justify-content: space-between;
-    padding: 0 40px;
-}
 .tittle{
     color: var(--main-color);
     font-weight: bolder;
@@ -42,24 +34,6 @@ nav{
     color: var(--tittle-color);
     font-weight: bold;
     margin-bottom: 52px;
-}
-
-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 16px;
-    height: 100%;
-}
-
-ul > li:first-child {
-    font-size: var(--sm);
-}
-
-a:link, a:visited, a:active {
-    text-decoration:none;
-    color: var(--text-color);
 }
 
 
