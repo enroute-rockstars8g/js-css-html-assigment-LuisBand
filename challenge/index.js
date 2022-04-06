@@ -36,7 +36,7 @@ const getResult = () => {
         case "fibonacci":
             renderTaquitos(fibonacci(value));
             break;
-        case "exponential":
+        case "factorial":
             renderTaquitos(factorial(value));
             break;
     }
