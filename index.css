@@ -24,6 +24,7 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
 nav{
     height: 68px;
     display: flex; 
@@ -32,6 +33,17 @@ nav{
     justify-content: space-between;
     padding: 0 40px;
 }
+.tittle{
+    color: var(--main-color);
+    font-weight: bolder;
+}
+
+.name{
+    color: var(--tittle-color);
+    font-weight: bold;
+    margin-bottom: 52px;
+}
+
 ul{
     list-style: none;
     padding: 0;
