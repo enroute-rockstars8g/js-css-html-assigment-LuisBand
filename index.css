@@ -1,0 +1,72 @@
+:root{
+    /* 
+    Color pallete that is going to be used
+    for this asignment
+     */
+     --purple: #6C698D;
+     --light-gray: #D4D2D5;
+     --orange: #EE7B30;
+     --russet: #7A4419;
+     --dim-gay: #6E6A6F;
+
+     /* 
+     Text size configuration for this asignment
+     */
+     --xl: 32px;
+     --l: 24;
+     --s: 16;
+     --xs: 12;
+}
+
+body {
+    line-height: 1.7em;
+    color: #7f8c8d;
+    font-size: 13px;
+    margin: 0;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 62px;
+    z-index: 3;
+    position: fixed;
+    background-color: var(--purple);
+}
+
+.landing-page {
+    background: var(--light-gray);
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 88%;
+    top: 0;
+    left: 0;
+    position: fixed;
+;}
+
+.landing-page > div {
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 100px; left: 0; bottom: 0; right: 0;
+    text-align: center;
+}
+
+.about {
+    position: absolute;
+    top: 87%;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+}
+
+.content {
+    padding:  16px;
+    background: white;
+}
+
+.content-2{
+    padding: 16px;
+    background-color: white;
+}
